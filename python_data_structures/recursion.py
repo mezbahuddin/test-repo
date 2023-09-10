@@ -4,3 +4,6 @@ def countdown(n):
         return             # Terminate recursion
     else:
         countdown(n - 1)   # Recursive call
+
+
+countdown(6)
